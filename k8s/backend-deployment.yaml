@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: backend
-          image: fluidai-backend:1.0
-          imagePullPolicy: IfNotPresent
+          image: venkyveera/fluidai-backend:latest
+          imagePullPolicy: Always
 
           ports:
             - containerPort: 8080
